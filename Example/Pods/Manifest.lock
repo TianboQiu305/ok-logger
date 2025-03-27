@@ -1,0 +1,16 @@
+PODS:
+  - OkLogger (0.1.0)
+
+DEPENDENCIES:
+  - OkLogger (from `../`)
+
+EXTERNAL SOURCES:
+  OkLogger:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  OkLogger: 49aacebf4aa8e1bf3e9d87dcf021a21b526d24d3
+
+PODFILE CHECKSUM: 9998bf6ca3cb172c850a94dbfacd34e1f93bac3e
+
+COCOAPODS: 1.16.2

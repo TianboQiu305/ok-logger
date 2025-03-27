@@ -1,0 +1,6 @@
+framework module Pods_OkLogger_Example {
+  umbrella header "Pods-OkLogger_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
