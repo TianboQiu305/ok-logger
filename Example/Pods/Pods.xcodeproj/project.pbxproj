@@ -11,11 +11,12 @@
 		32B7EE77C3FEA1D7CA3476769FBEB60B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
 		3E094D71015EFF38F0BAF3A0040B22FC /* Pods-OkLogger_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B997056E6AF76438743C4A01E4FB65C /* Pods-OkLogger_Tests-dummy.m */; };
 		59C820B68A59AEC25D0A39AA82704D06 /* Pods-OkLogger_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EC784762D4231051BBC9AFCE98C31D5 /* Pods-OkLogger_Example-dummy.m */; };
+		8477E1E92D94F4BF0049BE52 /* OkLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 8477E1E82D94F4BF0049BE52 /* OkLogger.h */; };
 		87CBFFAD8BED598711128B4E5571BC52 /* OkLogger-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CF3AE17590EF690C971CA107B32AD54 /* OkLogger-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9453D92872854B947D87DDBAD1BE579D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
 		956E05ED3CDC341FB861D08DF7BA15E1 /* OkLogger-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B3C7AE8458F8F0658153F1DD0D7F8104 /* OkLogger-dummy.m */; };
 		97C844E5158ECBE609642C33AC676CEC /* Pods-OkLogger_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E2382EED1B4E15CE7ECF285028EF7456 /* Pods-OkLogger_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A3D4531D08DD4959C0E8727FC543050B /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 845C20BC332E602A628E9519A2E171F6 /* ReplaceMe.m */; };
+		A3D4531D08DD4959C0E8727FC543050B /* OkLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 845C20BC332E602A628E9519A2E171F6 /* OkLogger.m */; };
 		E14AB14C0224C1FBDD944407FAC80ECC /* Pods-OkLogger_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A56EA5540BE1ACD116C8C8B2186AC98 /* Pods-OkLogger_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -40,7 +41,7 @@
 		014BA723F41D0C82E8DB9B8A588900C6 /* Pods-OkLogger_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OkLogger_Tests-Info.plist"; sourceTree = "<group>"; };
 		0D580B4A02A706D04506C35311939993 /* Pods-OkLogger_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-OkLogger_Example.modulemap"; sourceTree = "<group>"; };
 		0E4C41F70AC15494BB4B932A9971B0F6 /* OkLogger.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = OkLogger.modulemap; sourceTree = "<group>"; };
-		11893F8087F89BD75D9EBABABC0D8B73 /* OkLogger */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = OkLogger; path = OkLogger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		11893F8087F89BD75D9EBABABC0D8B73 /* OkLogger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OkLogger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2982D53FD91F7B4781FE6800DA427C39 /* Pods-OkLogger_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-OkLogger_Tests.modulemap"; sourceTree = "<group>"; };
 		358E8B5471F9A7B5EDEA9C9D5B54DFD5 /* OkLogger-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "OkLogger-Info.plist"; sourceTree = "<group>"; };
 		35C281F17F4A29A0F9D632F9742D00F4 /* Pods-OkLogger_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OkLogger_Example-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -48,25 +49,26 @@
 		384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		3FE0C44FF60B0D6311A5CA6593D14545 /* Pods-OkLogger_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OkLogger_Example-Info.plist"; sourceTree = "<group>"; };
 		5239A031EAC88B8F89E7D209D0A8CE4B /* OkLogger.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OkLogger.release.xcconfig; sourceTree = "<group>"; };
-		57DB62058B8475CD6721D7AAF7107E22 /* Pods-OkLogger_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-OkLogger_Example"; path = Pods_OkLogger_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		57DB62058B8475CD6721D7AAF7107E22 /* Pods_OkLogger_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OkLogger_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B997056E6AF76438743C4A01E4FB65C /* Pods-OkLogger_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OkLogger_Tests-dummy.m"; sourceTree = "<group>"; };
 		5EC784762D4231051BBC9AFCE98C31D5 /* Pods-OkLogger_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OkLogger_Example-dummy.m"; sourceTree = "<group>"; };
 		6838772A6A9D4D842E01B62A341F06D8 /* OkLogger-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OkLogger-prefix.pch"; sourceTree = "<group>"; };
 		6CF3AE17590EF690C971CA107B32AD54 /* OkLogger-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OkLogger-umbrella.h"; sourceTree = "<group>"; };
-		7C87C3923C58E798BF25F8728019079A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		7C87C3923C58E798BF25F8728019079A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		7D5EF327CABBFD52369349074CB8D272 /* Pods-OkLogger_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OkLogger_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		7ED1F6180FAB05A35F87AD77CEE528C4 /* Pods-OkLogger_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OkLogger_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		82C210B031AD791B2E2595ADC9C3A0BE /* Pods-OkLogger_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OkLogger_Example-frameworks.sh"; sourceTree = "<group>"; };
-		845C20BC332E602A628E9519A2E171F6 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = OkLogger/Classes/ReplaceMe.m; sourceTree = "<group>"; };
-		84BEE67B39D9EC65368C6875558900C7 /* OkLogger.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = OkLogger.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		845C20BC332E602A628E9519A2E171F6 /* OkLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OkLogger.m; path = OkLogger/Classes/OkLogger.m; sourceTree = "<group>"; };
+		8477E1E82D94F4BF0049BE52 /* OkLogger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = OkLogger.h; path = OkLogger/Classes/OkLogger.h; sourceTree = "<group>"; };
+		84BEE67B39D9EC65368C6875558900C7 /* OkLogger.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = OkLogger.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		96C86E3E0BC1BF56B65F7A433A1B26DB /* Pods-OkLogger_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OkLogger_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		9A56EA5540BE1ACD116C8C8B2186AC98 /* Pods-OkLogger_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OkLogger_Example-umbrella.h"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A0C47BA9D11D392168F3D504E376ACEF /* Pods-OkLogger_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OkLogger_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		B39B5E3D179F3C73567B39E53AED4674 /* Pods-OkLogger_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OkLogger_Example.release.xcconfig"; sourceTree = "<group>"; };
 		B3C7AE8458F8F0658153F1DD0D7F8104 /* OkLogger-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OkLogger-dummy.m"; sourceTree = "<group>"; };
-		B6344C48C5327F4DA39CA5498AAAF635 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		D3ECE604D4E29584FEEB8D7AC8CD104C /* Pods-OkLogger_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-OkLogger_Tests"; path = Pods_OkLogger_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6344C48C5327F4DA39CA5498AAAF635 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		D3ECE604D4E29584FEEB8D7AC8CD104C /* Pods_OkLogger_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OkLogger_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDC2B843773DAAF1ABA29FA63A0D5796 /* OkLogger.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OkLogger.debug.xcconfig; sourceTree = "<group>"; };
 		E2382EED1B4E15CE7ECF285028EF7456 /* Pods-OkLogger_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OkLogger_Tests-umbrella.h"; sourceTree = "<group>"; };
 		E9F7131E377EDFDB775C71B164D669A0 /* Pods-OkLogger_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OkLogger_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -144,9 +146,9 @@
 		3E6E9A3C06CA433E7BC7198570D280E3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				11893F8087F89BD75D9EBABABC0D8B73 /* OkLogger */,
-				57DB62058B8475CD6721D7AAF7107E22 /* Pods-OkLogger_Example */,
-				D3ECE604D4E29584FEEB8D7AC8CD104C /* Pods-OkLogger_Tests */,
+				11893F8087F89BD75D9EBABABC0D8B73 /* OkLogger.framework */,
+				57DB62058B8475CD6721D7AAF7107E22 /* Pods_OkLogger_Example.framework */,
+				D3ECE604D4E29584FEEB8D7AC8CD104C /* Pods_OkLogger_Tests.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -215,7 +217,8 @@
 		E6835929066E81BF7320897F6C58AE60 /* OkLogger */ = {
 			isa = PBXGroup;
 			children = (
-				845C20BC332E602A628E9519A2E171F6 /* ReplaceMe.m */,
+				845C20BC332E602A628E9519A2E171F6 /* OkLogger.m */,
+				8477E1E82D94F4BF0049BE52 /* OkLogger.h */,
 				BF45FEC6C63BAA1379E98DA870F29A21 /* Pod */,
 				478A55F10B5D7657F85DEB22E4048458 /* Support Files */,
 			);
@@ -230,6 +233,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8477E1E92D94F4BF0049BE52 /* OkLogger.h in Headers */,
 				87CBFFAD8BED598711128B4E5571BC52 /* OkLogger-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,7 +272,7 @@
 			);
 			name = OkLogger;
 			productName = OkLogger;
-			productReference = 11893F8087F89BD75D9EBABABC0D8B73 /* OkLogger */;
+			productReference = 11893F8087F89BD75D9EBABABC0D8B73 /* OkLogger.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		AEAE30272DD57205BECC294E2B713C3D /* Pods-OkLogger_Tests */ = {
@@ -287,7 +291,7 @@
 			);
 			name = "Pods-OkLogger_Tests";
 			productName = Pods_OkLogger_Tests;
-			productReference = D3ECE604D4E29584FEEB8D7AC8CD104C /* Pods-OkLogger_Tests */;
+			productReference = D3ECE604D4E29584FEEB8D7AC8CD104C /* Pods_OkLogger_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		B2B5ADC1B0E8C1EA6515ED7115E22812 /* Pods-OkLogger_Example */ = {
@@ -306,7 +310,7 @@
 			);
 			name = "Pods-OkLogger_Example";
 			productName = Pods_OkLogger_Example;
-			productReference = 57DB62058B8475CD6721D7AAF7107E22 /* Pods-OkLogger_Example */;
+			productReference = 57DB62058B8475CD6721D7AAF7107E22 /* Pods_OkLogger_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -327,8 +331,6 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			minimizedProjectReferenceProxies = 0;
-			preferredProjectObjectVersion = 77;
 			productRefGroup = 3E6E9A3C06CA433E7BC7198570D280E3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -378,7 +380,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				956E05ED3CDC341FB861D08DF7BA15E1 /* OkLogger-dummy.m in Sources */,
-				A3D4531D08DD4959C0E8727FC543050B /* ReplaceMe.m in Sources */,
+				A3D4531D08DD4959C0E8727FC543050B /* OkLogger.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -535,8 +537,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
